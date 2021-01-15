@@ -24,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 DBHandler handler = new DBHandler(getApplicationContext());
-             boolean hasInserted =   handler.insertData(mainBinding.noteEditText.getText().toString());
+             boolean hasInserted =   handler
+                     .insertData(mainBinding.TitleEditText.getText().toString(),
+                             mainBinding.noteEditText.getText().toString());
             if(hasInserted = true){
                 Toast.makeText(MainActivity.this, "Successfully inserted", Toast.LENGTH_SHORT).show();
             }else
