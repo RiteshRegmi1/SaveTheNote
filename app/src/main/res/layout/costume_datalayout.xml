@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="1"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:text="I am here In description"
+        android:paddingStart="6dp"
+        android:paddingTop="6dp"/>
+
+</LinearLayout>
